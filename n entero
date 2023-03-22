@@ -1,0 +1,28 @@
+// Online Número entero
+#include <stdio.h>
+#include<math.h>
+int main() {
+    int  OP, T;
+    float RES;
+    
+    printf("\nintroduce la opción deseada: ");
+    scanf("%d", &OP);
+    printf("\nintroduce la variable a operar: ");   // Write C code here
+    scanf("%d", &T);
+    if(OP == 1){
+        RES =(float)T/5;
+        printf("El resultado es: %f", RES);
+    }
+    else if(OP==2){
+         RES=pow(T,T);
+         printf("el resultado es: %f", RES);
+    }
+    else if (OP == 3 || OP == 4) {
+        RES=6*(float)T/2;
+        printf("el resultado: %f", RES);
+    }
+    else {
+        RES = 1;
+    }
+    return 0;
+}

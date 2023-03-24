@@ -19,7 +19,7 @@ int main() {
     }
     else if (OP == 3 || OP == 4) {
         RES=6*(float)T/2;
-        printf("el resultado: %f", RES);
+        printf("el resultado: %.1f", RES);
     }
     else {
         RES = 1;

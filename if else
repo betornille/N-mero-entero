@@ -13,7 +13,7 @@ int main() {
         RES =(float)T/5;
         printf("El resultado es: %.1f", RES);
     }
-    else if(OP==2){
+    else if(OP == 2){
          RES=pow(T,T);
          printf("el resultado es: %.1f", RES);
     }

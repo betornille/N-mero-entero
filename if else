@@ -11,11 +11,11 @@ int main() {
     scanf("%d", &T);
     if(OP == 1){
         RES =(float)T/5;
-        printf("El resultado es: %f", RES);
+        printf("El resultado es: %.1f", RES);
     }
     else if(OP==2){
          RES=pow(T,T);
-         printf("el resultado es: %f", RES);
+         printf("el resultado es: %.1f", RES);
     }
     else if (OP == 3 || OP == 4) {
         RES=6*(float)T/2;

@@ -1,0 +1,21 @@
+//tres numeros enteros
+#include<stdio.h>
+int main(){
+    int A, B, C;
+    printf("\nDa el primer número: ");
+    scanf("%d", &A);
+    printf("\nDa el segundo número: ");
+    scanf("%d", &B);
+    printf("Da el tercer número: ");
+    scanf("%d", &C);
+    if(A>B && A>C){
+        printf("El número %d es más grande que %d y que %d",  A, B, C);
+    }
+    else if(B>A && B>C){
+        printf("El número %d es más grande que %d y que %d", B, A, C);
+    }
+    else if(C>A && C>B){
+        printf("El número %d es más grande que %d y que %d", C, A, B);
+    }
+    return 0;
+}
